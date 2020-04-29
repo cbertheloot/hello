@@ -17,7 +17,7 @@ func TestProverb(t *testing.T) {
 }
 
 func TestPerson(t *testing.T) {
-	want := "test go !?"
+	want := "Bonjour tout le monde !?"
 	if got := Person(); got != want {
 		t.Errorf("Person() = %q, want %q", got, want)
 	}
