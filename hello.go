@@ -5,7 +5,7 @@ import (
 )
 
 func Person() string {
-	return "Bonjour tout le monde !?"
+	return "Bonjour SBE !?"
 }
 
 func Hello() string {
